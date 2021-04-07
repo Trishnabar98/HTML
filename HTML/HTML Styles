@@ -1,0 +1,73 @@
+Background Color
+=====================
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+<h1 style="background-color:yellow">HTML style</h1>
+<p style="background-color: white;">background color</p>
+</body>
+</html>
+
+Text Color
+=============
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+    <h1 style="color:blueviolet">HTML style</h1>
+    <p style="color:;">background color</p>
+</body>
+</html>
+
+Fonts
+========
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+
+
+    <h1 style="font-family:verdanda;">HTML style</h1>
+    <p style="font-family:courier;">This is a paragraph.</p>
+
+
+</body>
+</html>
+
+
+
+Text Size
+============
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+
+
+    <h1 style="font-size:300%;">HTML style</h1>
+    <p style="font-size:160%;">This is a paragraph.</p>
+
+
+</body>
+</html>
+
+
+Text Alignment
+===================
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+
+
+    <h1 style="text-align: center;">HTML style</h1>
+    <p style="text-align: left;">This is a paragraph.</p>
+    <p style="text-align: right;">This is a paragraph.</p>
+
+
+
+</body>
+</html>
