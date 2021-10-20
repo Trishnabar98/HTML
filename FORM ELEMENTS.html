@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM ELEMENTS</title>
+</head>
+<body>
+    <!-- 
+        1. input and label
+        2. textarea
+        3.datalist
+        4.select
+        5. fieldset and legend
+     -->
+
+     <form>
+
+        <label >Bio:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <label>year:</label><br>
+        <!-- <select multiple="">
+            <option>1st </option>
+            <option>2nd </option>
+            <option>3rd </option>
+            <option>4th </option>
+        </select><br> -->
+        <select >
+            <optgroup>
+                <option>1st </option>
+                <option>2nd </option>
+            </optgroup>
+            
+            <optgroup>
+                <option>3rd </option>
+                <option>4th </option>
+            </optgroup>
+
+        </select><br>
+
+        <label>Smartphone</label>
+        <input list="phone" name="">
+        <datalist id="phone">
+            <option value="oneplus">oneplus</option>
+            <option value="redmi">redmi</option>
+            <option value="iphone">iphone</option>
+        </datalist><br>
+        <br>
+
+
+
+    <fieldset>
+        <legend>education info</legend>
+        <label>name:</label><br>
+        <input type="name" name=""><br>
+
+        <label>roll:</label><br>
+        <input type="roll" name=""><br>
+        
+    
+
+    </fieldset>
+
+            
+     </form>
+</body>
+</html>
